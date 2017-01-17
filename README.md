@@ -1,4 +1,4 @@
-# ArrowNavigation
+# VimNavigation
 [fman](https://fman.io) plugin for vim key style navigation.
 
 ## Usage
