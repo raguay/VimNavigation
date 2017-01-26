@@ -3,5 +3,7 @@
     { "keys": ["shift+l"], "command": "open_directory" },
 	{ "keys": ["shift+k"], "command": "move_cursor_up" },
 	{ "keys": ["shift+j"], "command": "move_cursor_down" },
-    { "keys": ["shift+d"], "command": "move_to_trash" }
+    { "keys": ["shift+d"], "command": "move_to_trash" },
+    { "keys": ["shift+right"], "command": "open_in_right_pane"},
+    { "keys": ["shift+left"], "command": "open_in_left_pane"}
 ]
