@@ -1,5 +1,6 @@
-from fman import DirectoryPaneCommand
+from fman import DirectoryPaneCommand, show_alert
 from os.path import isdir, realpath
+from os import listdir
 
 class OpenDirectory(DirectoryPaneCommand):
 	def __call__(self):

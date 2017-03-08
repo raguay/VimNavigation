@@ -7,10 +7,16 @@
  * `shift+j` moves cursor up one
  * `shift+k` moves cursor down one
  * `shift+d` Move the file to trash
+ * `shift+g` Move cursor to bottom
+ * `ctrl+g`  Move cursor to the top
 
 I set it up using shift and the letter so that I can still type out names of files/directories and the cursor will move to them. A little less convient, but not too bad.
 
 This is a modified version of ArrowNavigation plugin for fman.
 
 ## Installation
-Download [master.zip](https://github.com/raguay/VimNavigation/archive/master.zip) and extract it to the `Plugins` subdirectory of fman's [data directory](https://fman.io/docs/customizing-fman). That is, you'll have `{data directory}/Plugins/VimNavigation-master`.
+Download [master.zip](https://github.com/raguay/VimNavigation/archive/master.zip) and extract it to `~/Library/Application Support/fman/Plugins` (so you have `.../Plugins/VimNavigation-master`). Restart fman.
+
+## Problems
+
+The `move_to_bottom` doesn't always go to the bottom. It goes to the last entry in the current directory. Fman sorts all directories at the top and files afterwards.
