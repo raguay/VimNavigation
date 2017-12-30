@@ -4,7 +4,7 @@ from fman.url import as_url
 from os.path import isdir, realpath
 
 
-class OpenDirectory(DirectoryPaneCommand):
+class OpenIfDirectory(DirectoryPaneCommand):
     def __call__(self, url=None):
         file_under_cursor = as_human_readable(self.pane.get_file_under_cursor())
         if url is None:
