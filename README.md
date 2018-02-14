@@ -15,7 +15,8 @@ I set it up using shift and the letter so that I can still type out names of fil
 This is a modified version of ArrowNavigation plugin for fman.
 
 ## Installation
-Download [master.zip](https://github.com/raguay/VimNavigation/archive/master.zip) and extract it to `~/Library/Application Support/fman/Plugins` (so you have `.../Plugins/VimNavigation-master`). Restart fman.
+
+Install with [fman's built-in command for installing plugins](https://fman.io/docs/installing-plugins).
 
 ## Problems
 
